@@ -1,3 +1,6 @@
 [submodule "0.1.0/ca-context7"]
 	path = 0.1.0/ca-context7
 	url = https://github.com/Coral-Protocol/ca-context7
+[submodule "0.1.0/ca-firecrawl"]
+	path = 0.1.0/ca-firecrawl
+	url = https://github.com/Coral-Protocol/ca-firecrawl
