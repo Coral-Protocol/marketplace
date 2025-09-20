@@ -2,6 +2,9 @@
 (modern lorem ipsum)
 A lightweight, production-friendly agent that watches your Coral workspace for new mentions and replies with answers grounded in your library documentation. It connects to both the Coral MCP server and a local Context7 MCP server to retrieve docs, monitor incoming requests, and post helpful, citation-rich responses.
 
+id: ca-context7
+
+
 ## What it does
 - Listens for new requests (mentions) in Coral.
 - Fetches your project or library documentation via the Context7 MCP server.
