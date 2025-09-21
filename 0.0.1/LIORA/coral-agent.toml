@@ -1,0 +1,28 @@
+[agent]
+name = "LIORA"
+version = "0.0.1"
+description = "An agent that can generate images or videos, automatically picking the best models and prompts at any time"
+
+[options.OPENAI_API_KEY]
+type = "string"
+description = "API key for OpenAI"
+
+[options.NOTION_API_TOKEN]
+type = "string"
+description = "Notion API token for Best Practice repository"
+
+[options.NOTION_BEST_PRACTICES_DB_ID]
+type = "string"
+description = "Notion database ID for Best Practices"
+
+[options.FAL_KEY]
+type = "string"
+description = "FAL API key for Fal generation"
+
+[options.TIMEOUT_MS]
+type = "string"
+description = "Connection/tool timeouts in ms"
+default = "30000"
+
+[runtimes.docker]
+image = "marinfc/first-concepts:latest"
